@@ -2,51 +2,103 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34564" started-at="2020-03-24T19:25:32 IST" finished-at="2020-03-24T19:26:07 IST">
+  <suite name="Default suite" duration-ms="4548" started-at="2020-04-24T02:30:02 IST" finished-at="2020-04-24T02:30:06 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34564" started-at="2020-03-24T19:25:32 IST" finished-at="2020-03-24T19:26:07 IST">
-      <class name="com.crm.qa.testcases.DealsPageTest">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="setup" is-config="true" duration-ms="31540" started-at="2020-03-24T19:25:35 IST" finished-at="2020-03-24T19:26:07 IST">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+    <test name="Default test" duration-ms="4548" started-at="2020-04-24T02:30:02 IST" finished-at="2020-04-24T02:30:06 IST">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="setup" is-config="true" duration-ms="4416" started-at="2020-04-24T02:30:02 IST" finished-at="2020-04-24T02:30:06 IST">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}]]>
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:446)
-at org.openqa.selenium.By$ByCssSelector.findElements(By.java:504)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:320)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:952)
-at com.crm.qa.utill.TestUtil.switchToFrame(TestUtil.java:33)
-at com.crm.qa.testcases.DealsPageTest.setup(DealsPageTest.java:35)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at com.crm.qa.base.TestBase.initialization(TestBase.java:46)
+at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -81,50 +133,102 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="addNewDeals(java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="addNewDeals" duration-ms="0" started-at="2020-03-24T19:26:07 IST" data-provider="getDealsTestData" finished-at="2020-03-24T19:26:07 IST">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="loginPageTitleTest" duration-ms="0" started-at="2020-04-24T02:30:06 IST" finished-at="2020-04-24T02:30:06 IST">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}]]>
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:446)
-at org.openqa.selenium.By$ByCssSelector.findElements(By.java:504)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:320)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:952)
-at com.crm.qa.utill.TestUtil.switchToFrame(TestUtil.java:33)
-at com.crm.qa.testcases.DealsPageTest.setup(DealsPageTest.java:35)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at com.crm.qa.base.TestBase.initialization(TestBase.java:46)
+at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -159,58 +263,110 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewDeals -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="-1585058167323" started-at="2020-03-24T19:26:07 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="tearDown" is-config="true" duration-ms="-1587675606689" started-at="2020-04-24T02:30:06 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="setup" is-config="true" duration-ms="-1585058167326" started-at="2020-03-24T19:26:07 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="setup" is-config="true" duration-ms="-1587675606709" started-at="2020-04-24T02:30:06 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="addNewDeals(java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="addNewDeals" duration-ms="0" started-at="2020-03-24T19:26:07 IST" data-provider="getDealsTestData" finished-at="2020-03-24T19:26:07 IST">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method status="SKIP" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="crmLogoImageTest" duration-ms="0" started-at="2020-04-24T02:30:06 IST" finished-at="2020-04-24T02:30:06 IST">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}]]>
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:446)
-at org.openqa.selenium.By$ByCssSelector.findElements(By.java:504)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:320)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:952)
-at com.crm.qa.utill.TestUtil.switchToFrame(TestUtil.java:33)
-at com.crm.qa.testcases.DealsPageTest.setup(DealsPageTest.java:35)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at com.crm.qa.base.TestBase.initialization(TestBase.java:46)
+at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -245,101 +401,153 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewDeals -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="-1585058167351" started-at="2020-03-24T19:26:07 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="tearDown" is-config="true" duration-ms="-1587675606716" started-at="2020-04-24T02:30:06 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="setup" is-config="true" duration-ms="-1585058167358" started-at="2020-03-24T19:26:07 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="loginTest" duration-ms="0" started-at="2020-04-24T02:30:06 IST" finished-at="2020-04-24T02:30:06 IST">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x00B1A113+1548563]
+Ordinal0 [0x00A9DDA1+1039777]
+Ordinal0 [0x00A1E485+517253]
+Ordinal0 [0x009AFD34+64820]
+Ordinal0 [0x009AC61E+50718]
+Ordinal0 [0x009CB797+178071]
+Ordinal0 [0x009CB59D+177565]
+Ordinal0 [0x009C95FB+169467]
+Ordinal0 [0x009B160A+71178]
+Ordinal0 [0x009B2690+75408]
+Ordinal0 [0x009B2629+75305]
+Ordinal0 [0x00AB71B7+1143223]
+GetHandleVerifier [0x00BB2B46+507814]
+GetHandleVerifier [0x00BB2864+507076]
+GetHandleVerifier [0x00BB9F47+537511]
+GetHandleVerifier [0x00BB3402+510050]
+Ordinal0 [0x00AAF29C+1110684]
+Ordinal0 [0x00AB938B+1151883]
+Ordinal0 [0x00AB94F3+1152243]
+Ordinal0 [0x00AB83F5+1147893]
+BaseThreadInitThunk [0x76566359+25]
+RtlGetAppContainerNamedObjectPath [0x773D7C14+228]
+RtlGetAppContainerNamedObjectPath [0x773D7BE4+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+at com.crm.qa.base.TestBase.initialization(TestBase.java:46)
+at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="setup" is-config="true" duration-ms="-1587675606717" started-at="2020-04-24T02:30:06 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="addNewDeals(java.lang.String, java.lang.String)[pri:1, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="addNewDeals" duration-ms="0" started-at="2020-03-24T19:26:07 IST" data-provider="getDealsTestData" finished-at="2020-03-24T19:26:07 IST">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
-Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
-System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=80.0.3987.149)
-Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
-System info: host: 'CORPLPTP000053', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\010645~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 405c6e7b3d7fa37708d50135a2360415
-*** Element info: {Using=css selector, value=frame[name='mainpanel'],iframe[name='mainpanel']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:362)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:446)
-at org.openqa.selenium.By$ByCssSelector.findElements(By.java:504)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:320)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:952)
-at com.crm.qa.utill.TestUtil.switchToFrame(TestUtil.java:33)
-at com.crm.qa.testcases.DealsPageTest.setup(DealsPageTest.java:35)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewDeals -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.DealsPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="-1585058167365" started-at="2020-03-24T19:26:07 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@86be70a]" name="tearDown" is-config="true" duration-ms="-1587675606735" started-at="2020-04-24T02:30:06 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
